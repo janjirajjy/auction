@@ -5,6 +5,7 @@ include('header.php');
 include('menu.php');
 include('banner.php');
 ?>
+<title>การชำระเงิน</title>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">

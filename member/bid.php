@@ -1,4 +1,5 @@
 <?php include('hder.php'); //css ?>
+<title>ประวัติการเข้าประมูล</title>
 <body>
   <?php include('nav.php'); //menu?>
   <!-- content -->
