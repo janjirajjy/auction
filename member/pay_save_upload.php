@@ -28,7 +28,7 @@ include('../condb.php');
 		move_uploaded_file($_FILES['slip_file']['tmp_name'],$path_copy);  
 	}
 
-$sql = "UPDATE   orders SET 
+$sql = "UPDATE  orders SET 
 slip_file='$newname',
 pay_date='$pay_date',
 account_id=$account_id

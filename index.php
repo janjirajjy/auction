@@ -2,7 +2,6 @@
 include('header.php');
 include('menu.php');
 ?>
-<title>ประมูล</title>
 <!-- Include Scripts -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.cycle.lite.min.js"></script>

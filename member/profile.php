@@ -1,5 +1,5 @@
 <?php include('hder.php'); //css ?>
-<title>จัดการโปรไฟล์</title>
+<?php include('link.php'); //js?>
 <body>
   <?php include('nav.php'); //menu?>
   <!-- content -->
@@ -14,5 +14,6 @@
     </div>
   </div>
   <?php include('footer.php'); //footer?>
+
 </body>
 <?php include('js.php'); //js?>

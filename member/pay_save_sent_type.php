@@ -1,6 +1,8 @@
 <meta charset="utf-8">
 <?php 
 include('../condb.php'); 
+    $em_name=$_POST["em_name"];
+
     $cus_id = $_POST["cus_id"];
 	$auction_id = $_POST["auction_id"];
 	//$send_id = $_POST["send_id"];

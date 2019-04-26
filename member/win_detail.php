@@ -58,8 +58,10 @@ while($row = mysqli_fetch_array($result)) {
   ."</td> "; 
 
   echo "</tr>";
+ 
 }
 echo "</table>";
+
 ?>
 <hr>
 

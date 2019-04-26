@@ -17,8 +17,12 @@ include('../condb.php');
 	$cus_lastname = $_POST["cus_lastname"];
 	$cus_tel = $_POST["cus_tel"];
 	$cus_address = $_POST["cus_address"];
-
-	
+	$cus_sex= $_POST["cus_sex"];
+	$cus_birthday= $_POST["cus_birthday"];
+	$cus_district= $_POST["cus_district"];
+	$cus_amphur= $_POST["cus_amphur"];
+	$cus_province= $_POST["cus_province"];
+	$cus_zipcode= $_POST["cus_zipcode"];
 	//เพิ่มเข้าไปในฐานข้อมูล
 	$sql = "UPDATE customer SET 
  
@@ -26,7 +30,13 @@ include('../condb.php');
 	cus_name='$cus_name',
 	cus_lastname='$cus_lastname',
 	cus_tel='$cus_tel',
-	cus_address='$cus_address'
+	cus_address='$cus_address',
+	cus_sex='$cus_sex',
+	cus_birthday='$cus_birthday',
+	cus_district='$cus_district',
+	cus_amphur='$cus_amphur',
+	cus_province='$cus_province',
+	cus_zipcode='$cus_zipcode'
 	WHERE cus_id=$cus_id";
 
 	$result = mysqli_query($condb, $sql) or die ("Error in query: $sql " . mysqli_error());

@@ -2,7 +2,6 @@
 include('header.php');
 include('menu.php');
 ?>
-<title>รายการชนะประมูล</title>
 
 <div class="container">
 	<div class="row">

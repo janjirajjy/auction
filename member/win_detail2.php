@@ -1,4 +1,5 @@
 <?php
+
 $query = "
 SELECT p.*,u.*,a.*,c.*
 FROM detailproduct as  p
@@ -25,11 +26,7 @@ extract($rows);
 
 //bank
 
-//sent type
-$queryb = "
-SELECT * FROM account" 
-or die("Error:" . mysqli_error());
-$resultb = mysqli_query($condb, $queryb); 
+
 
 
 echo "<table  class='table table-bordered table-hover'>";
@@ -69,8 +66,16 @@ echo "<table  class='table table-bordered table-hover'>";
       
     ."</td> ";
   echo "</tr>";
+  $account_cus_id = $row["product_customerid"];
+  
   }
 echo "</table>";
+
+//sent type
+$queryb = "
+SELECT * FROM account WHERE account_cus_email='$account_cus_id'" 
+or die("Error:" . mysqli_error());
+$resultb = mysqli_query($condb, $queryb); 
 ?>
 <hr>
 <div style="background-color: #c9ecf2; padding: 20px;">

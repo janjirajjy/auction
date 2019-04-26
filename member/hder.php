@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- <title>my backend</title> -->
+		<title>my backend</title>
 		<link href="../bt/css/bootstrap.min.css" rel="stylesheet">
 		<link href="../bt/css/style.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
@@ -36,5 +36,7 @@ $result = mysqli_query($condb, $sql) or die ("Error in query: $sql " . mysqli_er
 $row = mysqli_fetch_array($result);
 extract($row);
 $cus_name = $row['cus_name'];
+$cus_cus_email=$row['cus_email'];
+$u_cusid=$row['cus_id'];
 ?>
  
