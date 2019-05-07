@@ -11,6 +11,12 @@ include('header.php');
 		<meta name="description" content="Elmer is a Dashboard & Admin Site Responsive Template by hencework." />
 		<meta name="keywords" content="admin, admin dashboard, admin template, cms, crm, Elmer Admin, Elmeradmin, premium admin templates, responsive admin, sass, panel, software, ui, visualization, web app, application" />
 		<meta name="author" content="hencework"/>
+		<meta name="google-signin-client_id"
+        content="892782782457-ifhhvp4e67jrfqa28uvdhpa8j3rcerju.apps.googleusercontent.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="favicon.ico">
@@ -83,6 +89,7 @@ include('header.php');
                                                 <a class="g-signin2" data-onsuccess="onSignIn" href="goo/google_login.php">login_google</a>
                                             </div>
                                         </div>
+									
 														
 														<div class="form-group text-center">
 															<button type="submit" class="btn btn-primary  btn-rounded" value="">เข้าสู้ระบบ</button>
@@ -122,6 +129,7 @@ include('header.php');
 		<!-- Bootstrap Core JavaScript -->
 		<script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="vendors/bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
 		
 		<!-- Slimscroll JavaScript -->
 		<script src="dist/js/jquery.slimscroll.js"></script>
