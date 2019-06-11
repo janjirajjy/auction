@@ -6,7 +6,7 @@
     Auction System @2018
     <br/>
     <a href="login_admin.php"> 
-      <span class="glyphicon glyphicon-user"> </span> Login เจ้าของร้าน </a> 
+      <span class="glyphicon glyphicon-user"> </span> Login เจ้าของร้าน  </a> 
   </p>
 </div>
 </div>

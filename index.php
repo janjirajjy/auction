@@ -76,7 +76,7 @@ var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.o
 			</div>
 			<!-- START Auction Item CONTAINER -->
 			
-			<?php include('banner.php');?>
+			
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">

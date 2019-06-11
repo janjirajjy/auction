@@ -86,7 +86,7 @@ include('header.php');
 														<div class="button-list mt-25">
                                             <div class="form-group">
 
-                                                <a class="g-signin2" data-onsuccess="onSignIn" href="goo/google_login.php">login_google</a>
+                                                <a href="goo/google_login.php">login_google</a>
                                             </div>
                                         </div>
 									
