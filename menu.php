@@ -38,7 +38,7 @@ color: #FFFFFF;
               <!-- <li><a href="index.php">ประมูล</a></li> -->
               <li><a href="win.php">ชนะประมูล</a></li>
               <!-- <li><a href="bank.php">การชำระเงิน</a></li> -->
-              <!-- <li><a href="signup.php">สมัครสมาชิก</a></li> -->
+              <li><a href="signup.php">สมัครสมาชิก</a></li>
               
               <?php if($m_id!=''){
               echo '<li><a href="member/">
